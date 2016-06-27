@@ -60,7 +60,8 @@ if( $newSession ) $_SESSION['dbData'] = getDbData();   //printArray( getDbData()
 
 $_SESSION['manid'] =& $_SESSION['dbData']['manid'];//ToDO: delete
 $_SESSION['mandant'] =& $_SESSION['dbData']['mandant'];//ToDO: delete
-//$_SESSION['dbhost'] =& $_SESSION['dbData']['dbhost'];// Das muss weg!
+$_SESSION['dbname'] =& $_SESSION['dbData']['dbname'];// Korrektur des Fehlers dbname unsauber gelöst, geht aber
+
 
 //Db-handle erzeugen
 $dbData =& $_SESSION['dbData'];
