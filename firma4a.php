@@ -1,10 +1,10 @@
 <?php
     require_once("inc/stdLib.php");
-    include("crmLib.php");
-    include("FirmenLib.php");
-    require_once("documents.php");
-    include("template.inc");
-    include("persLib.php");
+    include("inc/crmLib.php");
+    include("inc/FirmenLib.php");
+    require_once("inc/documents.php");
+    include("inc/template.inc");
+    include("inc/persLib.php");
 
     $t = new Template($base);
     doHeader($t);
